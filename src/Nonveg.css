@@ -1,0 +1,37 @@
+.page-content {
+  margin-top: 120px;  /* pushes content down below fixed navbar */
+}
+/* Nonveg.css */
+
+.nonveg-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  border: none;
+  height: 100%;
+}
+
+.nonveg-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nonveg-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.nonveg-card .card-body {
+  text-align: center;
+}
+
+.nonveg-card .card-title {
+  font-weight: bold;
+}
+
+.nonveg-card .btn-add-cart {
+  transition: background-color 0.3s;
+}
+
+.nonveg-card .btn-add-cart:hover {
+  background-color: #0a5;
+}
