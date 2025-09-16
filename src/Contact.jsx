@@ -8,8 +8,8 @@ export default function Contact() {
       
       <div className="contact-details">
         <p><strong>👤 Name:</strong> Sreeja Chevva</p>
-        <p><strong>📧 Email:</strong> sreeja@example.com</p>
-        <p><strong>📱 Phone:</strong> +91 98765 43210</p>
+        <p><strong>📧 Email:</strong> sreejachevva566@gmail.com</p>
+        <p><strong>📱 Phone:</strong> +91 9381408041</p>
         <p><strong>📍 Address:</strong> Hyderabad, India</p>
       </div>
 

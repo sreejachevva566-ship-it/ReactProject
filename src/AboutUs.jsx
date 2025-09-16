@@ -1,6 +1,8 @@
 import React from "react";
 import "./AboutUs.css";
 import { useNavigate } from "react-router-dom";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 function AboutUs() {
     const navigate = useNavigate();  // ✅ initialize
@@ -73,7 +75,41 @@ function AboutUs() {
           View Menu
         </button>
       </div>
+       {/* 👇 Footer */}
+      
+      <footer className="footer">
+        <h3 className="brand">Delight Food</h3>
+        
+        <p>  Our team is made up of professionals dedicated to excellence.</p> 
+        <p>  We value collaboration, creativity, and commitment in everything we do.</p>
+        
+
+        {/* Social Media Icons */}
+        <div className="social-icons">
+          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noreferrer">
+            <i className="fab fa-youtube"></i>
+          </a>
+        </div>
+
+        {/* White line */}
+        <hr className="footer-line" />
+
+        <p>© 2025 Delight Food 🍴 | All Rights Reserved</p>
+        <p>
+          <a href="/about">About</a> | 
+          <a href="/contact">Contact</a> | 
+          <a href="/privacy">Privacy</a>
+        </p>
+      </footer>
     </div>
+  
+    
   );
 }
 

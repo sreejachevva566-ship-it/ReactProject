@@ -2,6 +2,7 @@ import React, {  useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "./store.js";
 import "./Vegstraters.css"; // Assuming you have some basic styles
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -94,7 +95,41 @@ const vegStraters = useSelector(globalState => globalState.Products.Vegstraters)
        
              {/* Toast container */}
              <ToastContainer position="top-right" autoClose={2000} />
-           </div>
+              {/* 👇 Footer */}
+      
+      <footer className="footer">
+        <h3 className="brand">Delight Food</h3>
+        
+        <p>  Our team is made up of professionals dedicated to excellence.</p> 
+        <p>  We value collaboration, creativity, and commitment in everything we do.</p>
+        
+
+        {/* Social Media Icons */}
+        <div className="social-icons">
+          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noreferrer">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noreferrer">
+            <i className="fab fa-youtube"></i>
+          </a>
+        </div>
+
+        {/* White line */}
+        <hr className="footer-line" />
+
+        <p>© 2025 Delight Food 🍴 | All Rights Reserved</p>
+        <p>
+          <a href="/about">About</a> | 
+          <a href="/contact">Contact</a> | 
+          <a href="/privacy">Privacy</a>
+        </p>
+      </footer>
+    </div>
+  
+           
   );
 
 }
