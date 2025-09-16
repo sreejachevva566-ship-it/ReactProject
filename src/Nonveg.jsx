@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Nonveg.css"; // Assuming you have some basic styles
 
-function Nonveg() {
+function NonVeg() {
   const nonVegItems = useSelector(state => state.Products.Nonveg);
   const dispatch = useDispatch();
 
@@ -78,4 +78,4 @@ function Nonveg() {
   );
 }
 
-export default Nonveg;
+export default NonVeg;
