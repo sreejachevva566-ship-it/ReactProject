@@ -9,6 +9,7 @@ import Desserts from './Desserts'
 import AboutUs from './AboutUs'
 import SignIn from './Signin'
 import SignUp from './Signup'
+import Contact from './Contact'
 import { logout } from './store.js'
 import './App.css'
 
@@ -148,6 +149,7 @@ function App() {
 
         <Route path='/cart' element={<Cart/>} />
         <Route path='/orders' element={<OrdersHistory />} /> 
+        <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<AboutUs />} />
         <Route path='/signin' element={<SignIn />} />
         <Route path='/signup' element={<SignUp />} /> 
