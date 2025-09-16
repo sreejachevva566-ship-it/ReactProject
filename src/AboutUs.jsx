@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutus.css";
+import "./Aboutus.css";
 import { useNavigate } from "react-router-dom";
 
 function AboutUs() {
