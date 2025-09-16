@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./home.css";
+import "./Home.css";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
